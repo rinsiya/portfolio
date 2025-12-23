@@ -88,7 +88,11 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
-
+.butn{
+  background-color: rgb(67, 11, 11);
+  border: 1px solid red;padding: 2px;
+  border-radius: 5px;
+}
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -169,21 +173,21 @@ h6 {
   color: var(--heading-color);
 }
 
-.header .btn-getstarted,
-.header .btn-getstarted:focus {
+.btn-getstarted,
+.btn-getstarted:focus {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #dc0101;
   font-size: 14px;
   padding: 8px 25px;
   margin: 0 0 0 30px;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 0.3s;
 }
 
-.header .btn-getstarted:hover,
-.header .btn-getstarted:focus:hover {
+.btn-getstarted:hover,
+.btn-getstarted:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: #5c0101
 }
 
 @media (max-width: 1200px) {

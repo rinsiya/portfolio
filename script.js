@@ -75,8 +75,8 @@ const error = document.getElementById("error-email");
     error.textContent = "Field is empty!!";
      error.style.backgroundColor = "red";
   } 
-  else if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
-     error.textContent = "This is not a valid email id!!";
+  else if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value.trim())){
+     error.textContent = "This is not a valid email iddd!!";
    error.style.backgroundColor = "red";
   }
   else
